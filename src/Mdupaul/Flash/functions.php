@@ -6,7 +6,7 @@ if ( ! function_exists('flash')) {
      * Arrange for a flash message.
      *
      * @param  string|null $message
-     * @return \Mdupaul\Flash\FlashNotifier
+     * @return \Cephee\Flash\FlashNotifier
      */
     function flash($message = null)
     {

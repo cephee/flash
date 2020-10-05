@@ -1,4 +1,6 @@
-<?php namespace Mdupaul\Flash;
+<?php
+
+namespace Cephee\Flash;
 
 interface SessionStore {
 

@@ -1,4 +1,6 @@
-<?php namespace Mdupaul\Flash;
+<?php
+
+namespace Cephee\Flash;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,12 +22,12 @@ class FlashServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'Mdupaul\Flash\SessionStore',
-            'Mdupaul\Flash\LaravelSessionStore'
+            'Cephee\Flash\SessionStore',
+            'Cephee\Flash\LaravelSessionStore'
         );
 
         $this->app->singleton('flash', function () {
-            return $this->app->make('Mdupaul\Flash\FlashNotifier');
+            return $this->app->make('Cephee\Flash\FlashNotifier');
         });
     }
 

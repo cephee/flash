@@ -1,4 +1,4 @@
-<?php namespace Mdupaul\Flash;
+<?php namespace Cephee\Flash;
 
 use Illuminate\Session\Store;
 

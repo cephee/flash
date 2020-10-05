@@ -1,6 +1,9 @@
-<?php namespace Mdupaul\Flash;
+<?php
+
+namespace Cephee\Flash;
 
 use Illuminate\Support\Facades\Facade;
+
 
 class Flash extends Facade {
 
@@ -11,7 +14,7 @@ class Flash extends Facade {
      */
     protected static function getFacadeAccessor()
     {
-        return 'flash';
+        return 'Flash';
     }
 
 } 
