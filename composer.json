@@ -16,8 +16,8 @@
         "mockery/mockery": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "Cephee\\Flash": "src/"
+        "psr-4": {
+            "Cephee\\Flash\\": "src/"
         },
         "files": [
             "src/functions.php"

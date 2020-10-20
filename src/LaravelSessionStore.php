@@ -27,5 +27,4 @@ class LaravelSessionStore implements SessionStore {
 	{
 		$this->session->flash($name, $data);
 	}
-
 }

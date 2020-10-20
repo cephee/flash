@@ -11,5 +11,4 @@ interface SessionStore {
 	 * @param $data
 	 */
 	public function flash($name, $data);
-
 }
