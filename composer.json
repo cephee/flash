@@ -20,8 +20,15 @@
             "Cephee\\Flash": "src/"
         },
         "files": [
-            "src/Cephee/Flash/functions.php"
+            "src/functions.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cephee\\Flash\\FlashServiceProvider"
+            ]
+        }
     },
     "minimum-stability": "stable"
 }
